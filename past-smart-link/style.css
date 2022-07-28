@@ -61,14 +61,14 @@ p {
 .links-list li a {
     background: rgb(255, 255, 255);
     padding: 15px 0px;
-    width: 300px;
+    width: auto;
     display: block;
-    margin: 15px auto;
+    margin: 15px 40px;
     border-radius: 5px;
     text-decoration: none;
     color: rgb(31, 31, 31);
     font-weight: 100;
-    border: 1px solid rgb(0, 91, 114);
+    border: 2px solid rgb(0, 91, 114);
     box-shadow:
         0px 0px 5.3px rgba(0, 0, 0, 0.085),
         0px 0px 17.9px rgba(0, 0, 0, 0.125);
