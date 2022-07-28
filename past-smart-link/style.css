@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgb(62, 215, 241) 0%, rgb(0, 151, 197) 100%);
+}
+
+html body div img {
+    width: 300px;
+    border-radius: 5px 5px 0 0;
+}
+
+.div-cover {
+    width: 300px;
+    height: 365px;
+    margin: 70px auto 50px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(36, 36, 36);
+    box-shadow:
+        0px 0px 5.3px rgba(0, 0, 0, 0.085),
+        0px 0px 17.9px rgba(0, 0, 0, 0.125),
+        0px 0px 80px rgba(0, 0, 0, 0.21);
+}
+
+h2 {
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+p {
+    color: grey;
+    font-size: 14px;
+}
+
+.links-list {
+    list-style: none;
+    text-align: center;
+}
+
+.links-list li a {
+    background: rgb(255, 255, 255);
+    padding: 15px 0px;
+    width: 300px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-weight: 100;
+    border: 1px solid rgb(0, 91, 114);
+    box-shadow:
+        0px 0px 5.3px rgba(0, 0, 0, 0.085),
+        0px 0px 17.9px rgba(0, 0, 0, 0.125);
+}
+
+.links-social {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+}
+
+.links-social li a img {
+    width: 30px;
+    height: auto;
+    
+}
+
+.links-social li {
+    list-style: none;
+}
