@@ -68,7 +68,7 @@ p {
     text-decoration: none;
     color: rgb(31, 31, 31);
     font-weight: 100;
-    border: 2px solid rgb(0, 31, 39);
+    border: 1px solid rgb(0, 31, 39);
     box-shadow:
         0px 0px 5.3px rgba(0, 0, 0, 0.085),
         0px 0px 17.9px rgba(0, 0, 0, 0.125);
@@ -77,21 +77,25 @@ p {
 #spotify:hover {
     background-color: #32cd32 ;
     color: white;
+    box-shadow: 0 0 15px #1b741b;
 }
 
 #tidal:hover {
     background-color: #1a1a1a ;
     color: white;
+    box-shadow: 0 0 15px #ffffff;
 }
 
 #deezer:hover {
     background-color: #39b1d6 ;
     color: rgb(255, 255, 255);
+    box-shadow: 0 0 15px #39b1d6
 }
 
 #amazon:hover {
     background-color: #171b22 ;
     color: white;
+    box-shadow: 0 0 15px rgb(255, 115, 0)
 }
 
 #amazon:hover span {
